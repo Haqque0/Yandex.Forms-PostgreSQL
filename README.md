@@ -39,6 +39,8 @@ docker run --name ctf-postgres \
 2. **ID Организации:** берется в [профиле организации](https://center.yandex.cloud/).
 3. **ID Формы:** берется из URL ссылки на форму. Пример: `https://forms.yandex.ru/cloud/admin/ID_ФОРМЫ/edit`.
 
+[Документация по API Яндекс Форм](https://yandex.ru/support/forms/ru/api-ref/access)
+
 ## 3. Настройка конфига (config_db.py)
 Переменные в файле:
 - `OAUTH_TOKEN` — ваш OAuth-токен.
