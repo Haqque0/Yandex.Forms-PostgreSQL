@@ -28,11 +28,12 @@ docker run --name ctf-postgres \
 Для работы скрипта нужны OAuth-токен, ID организации и ID формы.
 
 ### Подготовка
-1. **OAuth-токен:** Создайте приложение на [oauth.yandex.ru](https://oauth.yandex.ru/). 
+1. **OAuth-токен:** создайте приложение на [oauth.yandex.ru](https://oauth.yandex.ru/). 
    - Тип: «Для доступа к API или отладки».
    - Выбрать доступ к данным: `forms:read` и `forms:write`.
    - После создания скопируйте у созданного приложения `ClientID`.
-   - Cформируйте ссылку для запроса токена: `https://oauth.yandex.ru/authorize?response_type=token&client_id=ВАШ_ID`.
+   - Cформируйте ссылку для запроса токена:
+     `https://oauth.yandex.ru/authorize?response_type=token&client_id=ВАШ_ID`.
    - Войдите в аккаунт, от имени которого вы будете работать с API.
    - Скопируйте последовательность символов — это OAuth-токен.
 2. **ID Организации:** берется в [профиле организации](https://center.yandex.cloud/).
