@@ -45,7 +45,7 @@ docker ps
 ```
 
 ```bash
-docker exec -it my-pg-db env | grep POSTGRES
+docker exec -it <название контейнера> env | grep POSTGRES
 ```
 
 ---
